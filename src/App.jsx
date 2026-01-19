@@ -154,7 +154,7 @@ function App() {
         <div className="flex-grow"></div>
 
         <a
-          href="https://www.buymeacoffee.com/prodxce"
+          href="https://www.buymeacoffee.com/prodXCE"
           target="_blank"
           rel="noopener noreferrer"
           className="group relative p-3 rounded-xl transition-all text-yellow-500 hover:bg-yellow-500/10 mb-4"
