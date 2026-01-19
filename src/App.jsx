@@ -154,7 +154,7 @@ function App() {
         <div className="flex-grow"></div>
 
         <a
-          href="https://www.buymeacoffee.com/YOUR_USERNAME"
+          href="https://www.buymeacoffee.com/prodxce"
           target="_blank"
           rel="noopener noreferrer"
           className="group relative p-3 rounded-xl transition-all text-yellow-500 hover:bg-yellow-500/10 mb-4"
@@ -224,14 +224,11 @@ function App() {
         {/* RIGHT: PREVIEW */}
         <div
           ref={previewRef}
-          // FIXED: Removed 'flex justify-center' here.
-          // This allows the block layout to work normally so the paper can grow indefinitely.
           className={`w-1/2 h-full relative overflow-y-auto py-8 px-4 transition-colors duration-300 ${darkMode ? 'bg-black' : 'bg-[#E5E7EB]'}`}
         >
           {/* Paper View */}
           <div
             ref={printRef}
-            // FIXED: Added 'mx-auto' for centering, removed height constraints, added h-fit
             className="w-[21cm] min-h-[29.7cm] h-fit bg-white shadow-xl shadow-gray-400/20 mx-auto transition-transform duration-300 mb-8"
           >
             <div className="p-12 pb-24 prose prose-slate max-w-none break-words
